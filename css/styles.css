@@ -373,7 +373,7 @@ button {
     box-shadow: 0.1em 0.1em;
    }
    
-   /* button:hover {
+   button:hover {
     transform: translate(-0.05em, -0.05em);
     box-shadow: 0.15em 0.15em;
    }
@@ -381,9 +381,9 @@ button {
    button:active {
     transform: translate(0.05em, 0.05em);
     box-shadow: 0.05em 0.05em;
-   } */
+   }
 
-   
+
    
    .footer {
     display: flex;
