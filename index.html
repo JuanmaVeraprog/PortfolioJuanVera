@@ -5,6 +5,8 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 	<link rel="stylesheet" href="./css/styles.css">
 	<link rel="icon" href="./img/logo.png">
 	<title>PIZZASFLEX</title>
@@ -14,7 +16,9 @@
 	<div class="grillaHeader">
 		<!-- Header -->
 		<header class="header">
-			<span class="logo">Portfolio</span>
+			<span class="logo"><span>
+					< </span>Portfolio <span> >
+				</span></span>
 			<input class="menu-btn" type="checkbox" id="menu-btn" />
 			<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
 			<ul class="menu">
@@ -56,50 +60,54 @@
 			<img class="icono5" src="./img/iconogithub.png" alt="">
 			<img class="icono6" src="./img/iconosass.png" alt="">
 			<h2 class="estudiosTitulo">Mis estudios</h2>
-			<p class="estudios"><span>2021 - ∞.</span> Estudié y voy a seguir aprendiendo de forma autodidacta. Mis mayores influencias fueron Free Code Camp y Lucas Dalto con sus cursos (HTML, CSS, JAVASCRIPT), entre otros canales.</p>
-			<p class="estudios"><span>2022 Abril - 2022 Junio. </span>Coderhouse. Empecé la carrera de Full Stack y terminé el curso de Desarrollo Web.</p>
-			<p class="estudios"> <span>2021 - 2023.</span> Secundaria técnica. Me introduje en el mundo de la programación al entrar en el bachillerato de Auxiliar técnico en Informática, posteriormente continuando con un énfasis en desarrollo web.</p>
-
+			<p class="estudios"> <span>2015-2021.</span> Ingles C1. Empecé estudiando Ingles desde temprana edad en una
+				academia, tengo el First Certificate + un año de Advance, por lo que mi nivel rondaría el C1.</p>
+			<p class="estudios"><span>2021 - ∞.</span> Estudié y voy a seguir aprendiendo de forma autodidacta. Mis
+				mayores influencias fueron Free Code Camp y Lucas Dalto con sus cursos (HTML, CSS, JAVASCRIPT), entre
+				otros canales.</p>
+			<p class="estudios"><span>2022 Abril - 2022 Julio. </span>Coderhouse. Empecé la carrera de Full Stack y
+				terminé el curso de Desarrollo Web.</p>
+			<p class="estudios"> <span>2021 - 2023.</span> Secundaria técnica. Me introduje en el mundo de la
+				programación al entrar en el bachillerato de Auxiliar técnico en Informática, posteriormente continuando
+				con un énfasis en desarrollo web.</p>
 		</section>
 		<!-- Proyectos -->
-		<section class="proyectosIndex">
-			<div class="proyectosContainer">
-				<h2>Proyectos</h2>
-				<p>Aqui puedes ver una breve presentacion de mis proyectos!</p>
-			</div>
-			<div class="proyecto1">
-				<img src="./img/proyecto1.jpg" alt="">
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro accusamus iure necessitatibus, tempore
-					possimus, dolorem accusantium quis doloribus itaque, dolor modi nesciunt quia at culpa ipsam!
-					Voluptatem voluptates illo nulla!</p>
-					<button> Ver mas
-					</button>
-			</div>
-			<div class="proyecto2">
-				<img src="./img/proyecto2.png" alt="">
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro accusamus iure necessitatibus, tempore
-					possimus, dolorem accusantium quis doloribus itaque, dolor modi nesciunt quia at culpa ipsam!
-					Voluptatem voluptates illo nulla!</p>
-					<button> Ver mas
-					</button>
-			</div>
-			<div class="proyecto3">
-				<img src="./img/proyecto3.jpg" alt="">
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro accusamus iure necessitatibus, tempore
-					possimus, dolorem accusantium quis doloribus itaque, dolor modi nesciunt quia at culpa ipsam!
-					Voluptatem voluptates illo nulla!</p>
-					<button> Ver mas
-					</button>
-			</div>
-		</section>
+		<section class="proyectossIndex">
+			
 		<footer class="footer">
 			<div class="footerImg">
 				<img src="./img/footerGithub.png" alt="">
 				<img src="./img/footerLinkedin.png" alt="">
 			</div>
 			<p class="footerInfo"> Designed by Juan Manuel Vera</p>
+			<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+				Launch static backdrop modal
+			</button>
+			<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+				aria-labelledby="staticBackdropLabel" aria-hidden="true">
+				<div class="modal-dialog modal-xl modal-dialog-scrollable">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="staticBackdropLabel">Curriculum Ejemplo</h5>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<div class="modal-body">
+							<embed class="curriculum"
+							src="./plantillas_cv_word_gratis_19.pdf" type="">
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 		</footer>
 	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+	</script>
+
 </body>
 
 </html>
