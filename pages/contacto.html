@@ -5,89 +5,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-		integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
     <title>Document</title>
 </head>
 
 <body>
-    <div class="grillaContacto">
-        <!-- Header -->
-        <header class="header">
-            <span class="logo">Portfolio</span>
-            <input class="menu-btn" type="checkbox" id="menu-btn" />
-            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-            <ul class="menu">
-                <li><a href="#work">Home</a></li>
-                <li><a href="#about">Proyectos</a></li>
-                <li><a href="#careers">Learning_Map</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </header>
-        <!-- Main -->
-        <main class="mainContacto">
-            <h1>Contactame</h1>
-            <!-- Formulario -->
-            <section class="formContactame">
-                <div class="containerForm">
-                    <input type="email" placeholder="Mail">
-                    <input type="text" placeholder="Asunto">
+    <!-- N A V B A R -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class=" container-fluid">
+            <a class="navbar-brand me-auto fs-1 portfolio-titulo text-white" href="#"><span>
+                    < </span>Portfolio <span> >
+                </span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white  text-center" aria-current="page" href="../index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white  text-center" href="#"> Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white  text-center" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-contacto">
+        <div class="row g-3 d-flex justify-content-center input-contacto">
+            <h1 class="text-center text-warning fw-bold">Contactame</h1>
+            <div class="col-5 email-container">
+                <input type="email" class="form-control fs-4 email" placeholder="Email" aria-label="Email">
+            </div>
+            <div class="col-5">
+                <input type="text" class="form-control fs-4" placeholder="Asunto" aria-label="Asunto">
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-10 textarea-container">
+                <div class="form-floating">
+                    <textarea class="form-control my-4 textarea-contacto" style="height: 22rem;" id="floatingTextarea" placeholder="Mensaje"></textarea>
+                    
+                  </div>
+            </div>
+        </div>
+    </main>
+
+
+
+    <footer class="container-fluid color-footer">
+        <div class="row">
+            <div class="col color-footer d-flex align-items-center justify-content-center flex-column py-5">
+                <div class="imagenes-footer color-footer">
+                    <img src="../img/footerGithub.png" class="color-footer" alt="">
+                    <img src="../img/footerLinkedin.png" class="color-footer" alt="">
                 </div>
-                <div class="textareaForm">
-                    <textarea name="" id="" cols="43" rows="15" style="font-size: 1.5rem;"
-                        placeholder="Mensaje"></textarea>
-                   <button>Enviar</button>     
+                <div>
+                    <p class="text-white text-center color-footer fs-4 m-0">Designed by Juan Manuel Vera</p>
                 </div>
-                
-                
+            </div>
+        </div>
+    </footer>
 
-            </section>
-        </main>
-        <!-- Footer -->
-        <section class="proyectossIndex">
-
-			<footer class="footer">
-				<div class="boton">
-					<button type="button" class="btn btn-primary" data-bs-toggle="modal"
-						data-bs-target="#staticBackdrop">
-						Curriculum
-					</button>
-					<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
-						tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-						<div class="modal-dialog modal-xl modal-dialog-scrollable">
-							<div class="modal-content">
-								<div class="modal-header">
-									<h5 class="modal-title" id="staticBackdropLabel">Curriculum Ejemplo</h5>
-									<button type="button" class="btn-close" data-bs-dismiss="modal"
-										aria-label="Close"></button>
-								</div>
-								<div class="modal-body">
-									<embed class="curriculum" src="../plantillas_cv_word_gratis_19.pdf" type="">
-								</div>
-								<div class="modal-footer">
-									<button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="footerContainer">
-					<div class="footerImg">
-						<img src="./img/footerGithub.png" alt="">
-						<img src="./img/footerLinkedin.png" alt="">
-					</div>
-					<p class="footerInfo"> Designed by Juan Manuel Vera</p>
-				</div>
-				
-
-				
-		</section>
-		</footer>
-	</div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
-	</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
