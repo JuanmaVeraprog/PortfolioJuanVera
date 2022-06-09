@@ -5,9 +5,12 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Pagina dedicada para usar de portfolio y mostrar conocimientos en el area de Desarrollo Web">
+	<meta name="keywords" content="Portfolio, Desarrollador Web, Crear pagina web">
+	<meta name="theme-color" content="#0a0a0a">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-	<link rel="stylesheet" href="./css/styles.css">
+	<link rel="stylesheet" href="./sass/styles.css">
 	<link rel="icon" href="./img/logo.png">
 	<title>Portfolio</title>
 </head>
@@ -18,7 +21,7 @@
 		<div class=" container-fluid">
 			<a class="navbar-brand me-auto fs-1 portfolio-titulo text-white" href="#"><span>
 					< </span>Portfolio <span> >
-				</span></a>
+						</span></a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
 				data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
 				aria-label="Toggle navigation">
@@ -27,7 +30,8 @@
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 					<li class="nav-item">
-						<a class="nav-link active text-white  text-center" aria-current="page" href="index.html">Home</a>
+						<a class="nav-link active text-white  text-center" aria-current="page"
+							href="index.html">Home</a>
 					</li>
 
 					<li class="nav-item">
@@ -41,13 +45,13 @@
 		</div>
 	</nav>
 	<!-- M A I N -->
-	<main class="container-fluid">
+	<main class="container-fluid main-index">
 		<div class="row d-flex justify-content-center">
 			<div class="col-7 d-flex justify-content-center">
 				<img src="./img/logo.png" class="img-fluid logo" alt="ImagenLogo">
 			</div>
 		</div>
-		<div class="row justify-content-center">
+		<div class="row justify-content-center info-container">
 			<div class="col-10 fs-2 contenedor-datos">
 				<h1 class="text-warning fw-bold titulo-main text-center">Juanma Vera</h1>
 				<h2 class="text-center subtitulo-main">Desarrollador Web</h2>
@@ -63,7 +67,8 @@
 		<div class="row">
 			<div class="col-lg-6">
 				<h2 class="text-center titulo-sobremi">Sobre Mi</h2>
-				<p class="px-5 ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa at cumque atque eos iste
+				<p class="px-5 ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa at cumque atque eos
+					iste
 					sapiente a
 					officia quod id possimus? Animi ducimus fugiat inventore minus molestiae, quos ab maxime praesentium
 					pariatur nihil necessitatibus exercitationem quam! Laborum est maiores fuga magni! </p>
@@ -75,41 +80,48 @@
 			<div class="col-lg-6">
 				<h2 class="text-center titulo-conocimientos">Conocimientos</h2>
 				<div class="imagenes-sobremi1 d-flex justify-content-around my-4">
-					<img src="./img/iconoboostrap.png" alt="">
-					<img src="./img/iconocss.png" alt="">
-					<img src="./img/iconohtml.png" alt="">
+					<img src="./img/iconoboostrap.png" alt="Icono Boostrap">
+					<img src="./img/iconocss.png" alt="Icono Css">
+					<img src="./img/iconohtml.png" alt="Icono Html">
 				</div>
 				<div class="imagenes-sobremi2 d-flex justify-content-around my-4">
-					<img src="./img/iconogithub.png" alt="">
-					<img src="./img/iconogit.png" alt="">
-					<img src="./img/iconosass.png" alt="">
+					<img src="./img/iconogithub.png" alt="Icono Github">
+					<img src="./img/iconogit.png" alt="Icono Git">
+					<img src="./img/iconosass.png" alt="Icono Sass">
 				</div>
 				<div class="px-4 py-2 mt-5">
 					<h2 class="text-center">Estudios</h2>
-				<p class="estudios"> <span class="text-warning">2015-2021.</span> Ingles C1. Empecé estudiando Ingles desde temprana edad en una
-					academia, tengo el First Certificate + un año de Advance, por lo que mi nivel rondaría el C1.</p>
-				<p class="estudios"><span class="text-warning">2021 - ∞.</span> Estudié y voy a seguir aprendiendo de forma autodidacta. Mis
-					mayores influencias fueron Free Code Camp y Lucas Dalto con sus cursos (HTML, CSS, JAVASCRIPT), entre
-					otros canales.</p>
-				<p class="estudios"><span class="text-warning">2022 Abril - 2022 Julio. </span>Coderhouse. Empecé la carrera de Full Stack y
-					terminé el curso de Desarrollo Web.</p>
-				<p class="estudios"> <span class="text-warning">2021 - 2023.</span> Secundaria técnica. Me introduje en el mundo de la
-					programación al entrar en el bachillerato de Auxiliar técnico en Informática, posteriormente continuando
-					con un énfasis en desarrollo web.</p>
+					<p class="estudios"> <span class="text-warning">2015-2021.</span> Ingles C1. Empecé estudiando
+						Ingles desde temprana edad en una
+						academia, tengo el First Certificate + un año de Advance, por lo que mi nivel rondaría el C1.
+					</p>
+					<p class="estudios"><span class="text-warning">2021 - ∞.</span> Estudié y voy a seguir aprendiendo
+						de forma autodidacta. Mis
+						mayores influencias fueron Free Code Camp y Lucas Dalto con sus cursos (HTML, CSS, JAVASCRIPT),
+						entre
+						otros canales.</p>
+					<p class="estudios"><span class="text-warning">2022 Abril - 2022 Junio. </span>Coderhouse. Empecé la
+						carrera de Full Stack y
+						terminé el curso de Desarrollo Web.</p>
+					<p class="estudios"> <span class="text-warning">2021 - 2023.</span> Secundaria técnica. Me introduje
+						en el mundo de la
+						programación al entrar en el bachillerato de Auxiliar técnico en Informática, posteriormente
+						continuando
+						con un énfasis en desarrollo web.</p>
 				</div>
 			</div>
 		</div>
 	</section>
-	<footer class="container-fluid color-footer">
+	<footer class="container-fluid">
 		<div class="row">
 			<div class="col color-footer d-flex align-items-center justify-content-center flex-column py-5">
 				<div class="imagenes-footer color-footer">
-					<img src="./img/footerGithub.png" class="color-footer" alt="">
-					<img src="./img/footerLinkedin.png" class="color-footer" alt="">
+					<img src="./img/footerGithub.png" class="color-footer" alt="Icono Github">
+					<img src="./img/footerLinkedin.png" class="color-footer" alt="Icono Linkedin">
 				</div>
 				<div>
 					<p class="text-white text-center color-footer fs-4 m-0">Designed by Juan Manuel Vera</p>
-				</div>	
+				</div>
 			</div>
 		</div>
 	</footer>
@@ -117,7 +129,7 @@
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-	</script>
+		</script>
 </body>
 
 </html>
