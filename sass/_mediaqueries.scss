@@ -1,0 +1,211 @@
+@media (min-width: 425px) {
+    /* Sobre mi */
+
+
+    .sobremi-container {
+        .row {
+            .col-lg-6 {
+                .titulo-sobremi {
+                    margin-top: 5rem;
+                }
+            }
+        }
+    }
+
+    .sobremi-container {
+        .row {
+            .col-lg-6 {
+                .titulo-conocimientos {
+                    margin-top: 5rem;
+                }
+            }
+        }
+    }
+
+    .sobremi-container p {
+        font-size: 1.3rem;
+    }
+
+    .sobremi-container {
+        .row {
+            .col-lg-6 {
+                .imagen-sobremi {
+                    width: 70vw;
+                }
+            }
+        }
+    }
+
+}
+
+
+@media (min-width: 768px) {
+    /* Main */
+
+    .container-fluid {
+        .row {
+            .col-10 {
+                h1 {
+                    font-size: 4rem;
+                }
+            }
+        }
+    }
+
+
+    /*  Sobre mi */
+
+    .sobremi-container {
+        .row {
+            .col-lg-6 {
+                p {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) {
+
+    .sobremi-container {
+        .row {
+            .col-lg-6 {
+                .imagen-sobremi {
+                    width: 40vw;
+                    margin-top: 4rem;
+                }
+            }
+        }
+    }
+
+    .container-fluid {
+        .row {
+            .col-7 {
+                .logo {
+                    width: 20rem;
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width: 1920px) {
+    .container-fluid {
+        .row {
+            .col-10 {
+                h1 {
+                    letter-spacing: 10px;
+                }
+            }
+        }
+    }
+
+
+    main {
+        padding-bottom: 13rem;
+    }
+
+    .container-fluid {
+        .row {
+            .col-10 {
+                h2 {
+                    font-size: 3.5rem;
+                }
+            }
+        }
+    }
+
+    /* Sobre mi */
+
+    .sobremi-container {
+        .row {
+            .col-lg-6 {
+                p {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+
+    .sobremi-container {
+        .row {
+            .col-lg-6 {
+                .imagen-sobremi {
+                    width: 30vw;
+                }
+            }
+        }
+    }
+
+    /* ----- contacto ------- */
+
+
+    .main-contacto {
+        padding-bottom: 8.5rem;
+    }
+
+    .main-contacto {
+        .input-contacto {
+            display: flex;
+        }
+    }
+
+    .main-contacto {
+        .row {
+            .email-container {
+                display: flex;
+                justify-content: right;
+            }
+        }
+    }
+
+    .main-contacto {
+        .row {
+            .email-container {
+                input {
+                    display: inline;
+                    width: 30rem;
+                }
+            }
+        }
+    }
+
+    .main-contacto {
+        .row {
+            .col-5 {
+                input {
+                    display: inline;
+                    width: 30rem;
+                }
+            }
+        }
+    }
+    
+    .main-contacto {
+        .row {
+            .textarea-container {
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+
+    .main-contacto {
+        .row {
+            .textarea-container {
+                    .form-floating {
+                        .textarea-contacto {
+                            width: 51vw;
+                        }
+                    }
+                
+            }
+        }
+    }
+
+    .textarea-contacto {
+        width: 51vw;
+    }
+}

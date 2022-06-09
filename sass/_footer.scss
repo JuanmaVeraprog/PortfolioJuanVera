@@ -1,0 +1,45 @@
+footer {
+    height: 3rem;
+}
+
+.container-fluid {
+    .row {
+        .col {
+            .imagenes-footer {
+                img {    
+                        width: 2rem;          
+                }
+            }
+        }
+    }
+}
+
+footer {
+    .row {
+        .col {
+            .color-footer {
+                background-color: $colorNegroClaro;
+            }
+        }
+    }
+}
+
+footer {
+    .row {
+        .col {
+            .color-footer {
+                .color-footer {
+                    background-color: $colorNegroClaro;
+                }
+        }
+    }
+}
+}
+
+footer {
+    .row {
+        .col {
+            background-color: $colorNegroClaro;
+    }
+}
+}

@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Nintendo;
+    background-color: rgb(12, 12, 12);
+}
+
+
+@font-face {
+    font-family: "Open Sans Light";
+    src: url(../fonts/OpenSans-Light.ttf);
+}
+
+@font-face {
+    font-family: "Open Sans Medium";
+    src: url(../fonts/OpenSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Nintendo";
+    src: url(../fonts/Nintendo-DS-BIOS.ttf);
+}
+@import "variables";
+@import "header";
+@import "main";
+@import "footer";
+@import "mediaqueries";
+@import "sobremiIndex";
+
+
+
+p {
+    color: $colorAzul;
+}
+
+h2 {
+    color: white;
+    font-size: 3rem;
+}

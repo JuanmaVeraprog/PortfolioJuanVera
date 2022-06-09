@@ -1,0 +1,218 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Nintendo;
+  background-color: #0c0c0c;
+}
+
+@font-face {
+  font-family: "Open Sans Light";
+  src: url(../fonts/OpenSans-Light.ttf);
+}
+
+@font-face {
+  font-family: "Open Sans Medium";
+  src: url(../fonts/OpenSans-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Nintendo";
+  src: url(../fonts/Nintendo-DS-BIOS.ttf);
+}
+
+.navbar .container-fluid .collapse .navbar-nav .nav-item {
+  font-size: 2rem;
+  padding: 5px 20px;
+}
+
+.main-index .row .contenedor-datos .lista-datos li {
+  list-style-type: none;
+}
+
+.main-index .row .contenedor-datos .lista-datos {
+  color: #379e98;
+  text-align: center;
+  padding: 0;
+}
+
+.main-index .row .contenedor-datos .titulo-main {
+  color: #faec3a;
+  font-size: 3rem;
+  letter-spacing: 5px;
+}
+
+.main-index .row .contenedor-datos .subtitulo-main {
+  font-size: 2rem;
+  color: white;
+}
+
+.main-index .row .col-7 .logo {
+  width: 50rem;
+}
+
+.main-contacto {
+  padding-bottom: 6.5rem;
+}
+
+.main-presentacion .row .col-lg-6 img {
+  width: 80vw;
+}
+
+.main-presentacion .row .col-lg-6 .lista-presentacion {
+  list-style-type: none;
+}
+
+.main-presentacion .row .col-lg-6 .lista-presentacion .hola-li {
+  color: #faec3a;
+  font-size: 3rem;
+}
+
+.main-presentacion .row .col-lg-6 .lista-presentacion .diseñador-li {
+  color: #379e98;
+  font-size: 2rem;
+}
+
+.main-presentacion .row .col-lg-6 .lista-presentacion .lenguajes-li {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.main-presentacion .row .col-lg-6 .lista-presentacion {
+  padding-top: 3rem;
+}
+
+footer {
+  height: 3rem;
+}
+
+.container-fluid .row .col .imagenes-footer img {
+  width: 2rem;
+}
+
+footer .row .col .color-footer {
+  background-color: #0a0a0a;
+}
+
+footer .row .col .color-footer .color-footer {
+  background-color: #0a0a0a;
+}
+
+footer .row .col {
+  background-color: #0a0a0a;
+}
+
+@media (min-width: 425px) {
+  /* Sobre mi */
+  .sobremi-container .row .col-lg-6 .titulo-sobremi {
+    margin-top: 5rem;
+  }
+  .sobremi-container .row .col-lg-6 .titulo-conocimientos {
+    margin-top: 5rem;
+  }
+  .sobremi-container p {
+    font-size: 1.3rem;
+  }
+  .sobremi-container .row .col-lg-6 .imagen-sobremi {
+    width: 70vw;
+  }
+}
+
+@media (min-width: 768px) {
+  /* Main */
+  .container-fluid .row .col-10 h1 {
+    font-size: 4rem;
+  }
+  /*  Sobre mi */
+  .sobremi-container .row .col-lg-6 p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .sobremi-container .row .col-lg-6 .imagen-sobremi {
+    width: 40vw;
+    margin-top: 4rem;
+  }
+  .container-fluid .row .col-7 .logo {
+    width: 20rem;
+  }
+}
+
+@media (min-width: 1920px) {
+  .container-fluid .row .col-10 h1 {
+    letter-spacing: 10px;
+  }
+  main {
+    padding-bottom: 13rem;
+  }
+  .container-fluid .row .col-10 h2 {
+    font-size: 3.5rem;
+  }
+  /* Sobre mi */
+  .sobremi-container .row .col-lg-6 p {
+    font-size: 2rem;
+  }
+  .sobremi-container .row .col-lg-6 .imagen-sobremi {
+    width: 30vw;
+  }
+  /* ----- contacto ------- */
+  .main-contacto {
+    padding-bottom: 8.5rem;
+  }
+  .main-contacto .input-contacto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .main-contacto .row .email-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+  }
+  .main-contacto .row .email-container input {
+    display: inline;
+    width: 30rem;
+  }
+  .main-contacto .row .col-5 input {
+    display: inline;
+    width: 30rem;
+  }
+  .main-contacto .row .textarea-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main-contacto .row .textarea-container .form-floating .textarea-contacto {
+    width: 51vw;
+  }
+  .textarea-contacto {
+    width: 51vw;
+  }
+}
+
+.sobremi-container .row .col-lg-6 .imagenes-sobremi1 img {
+  width: 4rem;
+}
+
+.sobremi-container .row .col-lg-6 .imagenes-sobremi2 img {
+  width: 4rem;
+}
+
+p {
+  color: #379e98;
+}
+
+h2 {
+  color: white;
+  font-size: 3rem;
+}
+/*# sourceMappingURL=styles.css.map */

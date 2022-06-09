@@ -1,0 +1,135 @@
+.main-index {
+    .row {
+        .contenedor-datos {
+            .lista-datos {
+                li {
+                    list-style-type: none;
+                }
+            }
+        }
+    }
+}
+
+.main-index {
+    .row {
+        .contenedor-datos {
+            .lista-datos {
+                color: $colorAzul;
+                text-align: center;
+                padding: 0;
+            }
+        }
+    }
+}
+
+.main-index {
+    .row {
+        .contenedor-datos {
+            .titulo-main {
+                color: $colorAmarillo;
+                font-size: 3rem;
+                letter-spacing: 5px;
+            }
+        }
+    }
+}
+
+.main-index {
+    .row {
+        .contenedor-datos {
+            .subtitulo-main {
+                font-size: 2rem;
+                color: white;
+            }
+        }
+    }
+}
+
+.main-index {
+    .row {
+        .col-7 {
+            .logo {
+                width: 50rem;
+            }
+        }
+    }
+}
+
+// Main Contacto
+
+.main-contacto {
+    padding-bottom: 6.5rem;
+}
+
+// Main Presentacion
+
+.main-presentacion {
+    .row {
+        .col-lg-6 {
+            img {
+                width: 80vw;
+                
+            }
+        }
+    }
+}
+
+.main-presentacion {
+    .row {
+        .col-lg-6 {
+            .lista-presentacion {
+                list-style-type: none;
+            }
+        }
+    }
+}
+
+.main-presentacion {
+    .row {
+        .col-lg-6 {
+            .lista-presentacion {
+                .hola-li {
+                    color: $colorAmarillo;
+                    font-size: 3rem;
+                }
+            }
+        }
+    }
+}
+
+
+.main-presentacion {
+    .row {
+        .col-lg-6 {
+            .lista-presentacion {
+                .diseñador-li {
+                    color: $colorAzul;
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+}
+
+.main-presentacion {
+    .row {
+        .col-lg-6 {
+            .lista-presentacion {
+                .lenguajes-li {
+                    color: white;
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+}
+
+.main-presentacion {
+    .row {
+        .col-lg-6 {
+            .lista-presentacion {
+                padding-top: 3rem;
+            }
+        }
+    }
+}

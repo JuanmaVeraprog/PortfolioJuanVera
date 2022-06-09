@@ -1,94 +1,7 @@
-@font-face {
-    font-family: "Open Sans Light";
-    src: url(../fonts/OpenSans-Light.ttf);
-}
 
-@font-face {
-    font-family: "Open Sans Medium";
-    src: url(../fonts/OpenSans-Medium.ttf);
-}
-
-@font-face {
-    font-family: "Nintendo";
-    src: url(../fonts/Nintendo-DS-BIOS.ttf);
-}
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: Nintendo;
-    background-color: rgb(12, 12, 12);
-}
-
-h1 {
-    font-size: 3rem;
-    letter-spacing: 5px;
-}
-
-p {
-    color: #379e98;
-}
-
-h2 {
-    color: white;
-    font-size: 3rem;
-}
-
-
-/* Header */
-
-.nav-item {
-    font-size: 2rem;
-    padding: 5px 20px;
-}
-
-
-/* Main */
-
-main ul {
-    list-style-type: none;
-}
-
-.lista-datos {
-    color: #379e98;
-    text-align: center;
-    padding: 0;
-}
-
-.titulo-main {
-    color: #faec3a;
-}
-
-.subtitulo-main {
-    font-size: 2rem;
-}
-
-main img{
-    width: 50rem;
-}
-
-
-/* Sobre mi */
-
-.imagenes-sobremi1 img {
-    width: 4rem;
-}
-
-.imagenes-sobremi2 img {
-    width: 4rem;
-}
 
 
 /* Footer */
-
-.imagenes-footer img {
-    width: 2rem;
-}
-
-footer {
-    height: 3rem;
-}
 
 .color-footer {
     background-color: rgb(10, 10, 10);
@@ -196,9 +109,6 @@ footer {
             width: 51vw;
         }
     }
-
-
-    
 
     .main-contacto {
         padding-bottom: 6.5rem;
