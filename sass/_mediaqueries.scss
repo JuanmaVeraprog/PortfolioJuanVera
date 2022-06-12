@@ -64,6 +64,19 @@
             }
         }
     }
+
+    // presentacion 
+
+    .main-presentacion {
+        .row {
+            .col-lg-6 {
+                img {
+                    width: 50vw;
+
+                }
+            }
+        }
+    }
 }
 
 @media (min-width: 992px) {
@@ -84,6 +97,19 @@
             .col-7 {
                 .logo {
                     width: 20rem;
+                }
+            }
+        }
+    }
+
+    // presentacion 
+
+    .main-presentacion {
+        .row {
+            .col-lg-6 {
+                img {
+                    width: 50vw;
+
                 }
             }
         }
@@ -143,7 +169,7 @@
 
 
     .main-contacto {
-        padding-bottom: 8.5rem;
+        padding-bottom: 8.4rem;
     }
 
     .main-contacto {
@@ -182,7 +208,7 @@
             }
         }
     }
-    
+
     .main-contacto {
         .row {
             .textarea-container {
@@ -195,17 +221,91 @@
     .main-contacto {
         .row {
             .textarea-container {
-                    .form-floating {
-                        .textarea-contacto {
-                            width: 51vw;
-                        }
+                .form-floating {
+                    .textarea-contacto {
+                        width: 51vw;
                     }
-                
+                }
+
             }
         }
     }
 
     .textarea-contacto {
         width: 51vw;
+    }
+
+    // presentacion
+
+    .main-presentacion {
+        .row {
+            .col-lg-6 {
+                img {
+                    width: 30vw;
+
+                }
+            }
+        }
+    }
+
+    .main-presentacion {
+        .row {
+            .elementos-presentacion {
+                padding-right: 25rem;
+
+            }
+        }
+    }
+
+    .main-presentacion {
+        .row {
+            .contenedor-lista {
+                padding-left: 25rem;
+
+            }
+        }
+    }
+
+    .main-presentacion {
+        .row {
+            .contenedor-lista {
+                .lista-presentacion {
+                    .hola-li {
+                        font-size: 4.5rem;
+                    }
+                }
+
+            }
+        }
+    }
+
+    .main-presentacion {
+        .row {
+            .contenedor-lista {
+                .lista-presentacion {
+                    .diseñador-li {
+                        font-size: 3rem;
+                    }
+                }
+
+            }
+        }
+    }
+
+    .main-presentacion {
+        .row {
+            .contenedor-lista {
+                .lista-presentacion {
+                    .lenguajes-li {
+                        font-size: 2rem;
+                    }
+                }
+
+            }
+        }
+    }
+
+    .main-presentacion {
+        padding-bottom: 7rem;
     }
 }

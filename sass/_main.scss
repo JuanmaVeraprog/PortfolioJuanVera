@@ -58,7 +58,7 @@
 // Main Contacto
 
 .main-contacto {
-    padding-bottom: 6.5rem;
+    padding-bottom: 6.7rem;
 }
 
 // Main Presentacion
@@ -68,7 +68,7 @@
         .col-lg-6 {
             img {
                 width: 80vw;
-                
+
             }
         }
     }
@@ -79,6 +79,7 @@
         .col-lg-6 {
             .lista-presentacion {
                 list-style-type: none;
+                padding: 0;
             }
         }
     }
@@ -127,9 +128,41 @@
 .main-presentacion {
     .row {
         .col-lg-6 {
-            .lista-presentacion {
-                padding-top: 3rem;
+            .contenedor-botones {
+                button {
+                    width: 9rem;
+                    letter-spacing: 1px;
+                }
             }
+
         }
     }
 }
+
+.main-presentacion {
+    .row {
+        .col-lg-6 {
+            .contenedor-botones {
+                .boton-portfolio {
+                    background-color: $colorAmarillo;
+                }
+            }
+
+        }
+    }
+}
+
+
+.main-presentacion {
+    .row {
+        .col-lg-6 {
+            .contenedor-botones {
+                .boton-curriculum {
+                    background-color: $colorAzul;
+                }
+            }
+
+        }
+    }
+}
+

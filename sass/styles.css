@@ -54,7 +54,7 @@
 }
 
 .main-contacto {
-  padding-bottom: 6.5rem;
+  padding-bottom: 6.7rem;
 }
 
 .main-presentacion .row .col-lg-6 img {
@@ -63,6 +63,7 @@
 
 .main-presentacion .row .col-lg-6 .lista-presentacion {
   list-style-type: none;
+  padding: 0;
 }
 
 .main-presentacion .row .col-lg-6 .lista-presentacion .hola-li {
@@ -80,8 +81,17 @@
   font-size: 1.5rem;
 }
 
-.main-presentacion .row .col-lg-6 .lista-presentacion {
-  padding-top: 3rem;
+.main-presentacion .row .col-lg-6 .contenedor-botones button {
+  width: 9rem;
+  letter-spacing: 1px;
+}
+
+.main-presentacion .row .col-lg-6 .contenedor-botones .boton-portfolio {
+  background-color: #faec3a;
+}
+
+.main-presentacion .row .col-lg-6 .contenedor-botones .boton-curriculum {
+  background-color: #379e98;
 }
 
 footer {
@@ -129,6 +139,9 @@ footer .row .col {
   .sobremi-container .row .col-lg-6 p {
     font-size: 1.5rem;
   }
+  .main-presentacion .row .col-lg-6 img {
+    width: 50vw;
+  }
 }
 
 @media (min-width: 992px) {
@@ -138,6 +151,9 @@ footer .row .col {
   }
   .container-fluid .row .col-7 .logo {
     width: 20rem;
+  }
+  .main-presentacion .row .col-lg-6 img {
+    width: 50vw;
   }
 }
 
@@ -160,7 +176,7 @@ footer .row .col {
   }
   /* ----- contacto ------- */
   .main-contacto {
-    padding-bottom: 8.5rem;
+    padding-bottom: 8.4rem;
   }
   .main-contacto .input-contacto {
     display: -webkit-box;
@@ -197,6 +213,27 @@ footer .row .col {
   .textarea-contacto {
     width: 51vw;
   }
+  .main-presentacion .row .col-lg-6 img {
+    width: 30vw;
+  }
+  .main-presentacion .row .elementos-presentacion {
+    padding-right: 25rem;
+  }
+  .main-presentacion .row .contenedor-lista {
+    padding-left: 25rem;
+  }
+  .main-presentacion .row .contenedor-lista .lista-presentacion .hola-li {
+    font-size: 4.5rem;
+  }
+  .main-presentacion .row .contenedor-lista .lista-presentacion .diseñador-li {
+    font-size: 3rem;
+  }
+  .main-presentacion .row .contenedor-lista .lista-presentacion .lenguajes-li {
+    font-size: 2rem;
+  }
+  .main-presentacion {
+    padding-bottom: 7rem;
+  }
 }
 
 .sobremi-container .row .col-lg-6 .imagenes-sobremi1 img {
@@ -205,6 +242,14 @@ footer .row .col {
 
 .sobremi-container .row .col-lg-6 .imagenes-sobremi2 img {
   width: 4rem;
+}
+
+.main-presentacion .row .col-12 img {
+  width: 80vw;
+}
+
+.main-presentacion {
+  padding-bottom: 7rem;
 }
 
 p {
