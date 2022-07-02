@@ -28,28 +28,32 @@
   padding: 5px 20px;
 }
 
-.main-index .row .contenedor-datos .lista-datos li {
+.main-principal .row .contenedor-datos .lista-datos li {
   list-style-type: none;
 }
 
-.main-index .row .contenedor-datos .lista-datos {
+.main-principal {
+  padding-bottom: 9.5rem;
+}
+
+.main-principal .row .contenedor-datos .lista-datos {
   color: #379e98;
   text-align: center;
   padding: 0;
 }
 
-.main-index .row .contenedor-datos .titulo-main {
+.main-principal .row .contenedor-datos .titulo-main {
   color: #faec3a;
   font-size: 3rem;
   letter-spacing: 5px;
 }
 
-.main-index .row .contenedor-datos .subtitulo-main {
+.main-principal .row .contenedor-datos .subtitulo-main {
   font-size: 2rem;
   color: white;
 }
 
-.main-index .row .col-7 .logo {
+.main-principal .row .col-7 .logo {
   width: 50rem;
 }
 
@@ -57,8 +61,20 @@
   padding-bottom: 6.7rem;
 }
 
+.main-contacto .row h1 {
+  color: #faec3a;
+}
+
 .main-presentacion .row .col-lg-6 img {
   width: 80vw;
+}
+
+.main-presentacion .row .col-12 img {
+  width: 80vw;
+}
+
+.main-presentacion {
+  padding-bottom: 7rem;
 }
 
 .main-presentacion .row .col-lg-6 .lista-presentacion {
@@ -92,6 +108,25 @@
 
 .main-presentacion .row .col-lg-6 .contenedor-botones .boton-curriculum {
   background-color: #379e98;
+}
+
+.main-proyectos .row .col-lg-5 img {
+  border: solid 2px white;
+  margin-top: 2rem;
+}
+
+.main-proyectos {
+  padding-bottom: 6rem;
+}
+
+.main-proyectos .row .col-lg-6 p {
+  margin: 2rem;
+}
+
+.main-proyectos .row h1 {
+  font-size: 3rem;
+  color: #faec3a;
+  padding-bottom: 1rem;
 }
 
 footer {
@@ -161,22 +196,19 @@ footer .row .col {
   .container-fluid .row .col-10 h1 {
     letter-spacing: 10px;
   }
-  main {
-    padding-bottom: 13rem;
-  }
   .container-fluid .row .col-10 h2 {
     font-size: 3.5rem;
   }
   /* Sobre mi */
   .sobremi-container .row .col-lg-6 p {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .sobremi-container .row .col-lg-6 .imagen-sobremi {
     width: 30vw;
   }
   /* ----- contacto ------- */
   .main-contacto {
-    padding-bottom: 8.4rem;
+    padding-bottom: 9.3rem;
   }
   .main-contacto .input-contacto {
     display: -webkit-box;
@@ -232,24 +264,41 @@ footer .row .col {
     font-size: 2rem;
   }
   .main-presentacion {
-    padding-bottom: 7rem;
+    padding-bottom: 8rem;
+  }
+  .sobremi-container .row .col-lg-6 .imagen-sobremi {
+    width: 21vw;
+    margin-top: 4rem;
+  }
+  .sobremi-container .row .col-lg-6 .titulo-sobremi {
+    margin-top: 0rem;
+  }
+  .sobremi-container .row .col-lg-6 .titulo-conocimientos {
+    margin-top: 0rem;
+  }
+  .sobremi-container {
+    padding: 0.7rem;
+  }
+  .main-proyectos {
+    padding-bottom: 5.5rem;
+  }
+  .main-proyectos .row h1 {
+    font-size: 3rem;
+    color: #faec3a;
+    padding-bottom: 3rem;
+  }
+  .main-proyectos .row .col-lg-5 img {
+    border: solid 2px white;
+    margin-top: 6rem;
   }
 }
 
 .sobremi-container .row .col-lg-6 .imagenes-sobremi1 img {
-  width: 4rem;
+  width: 3rem;
 }
 
 .sobremi-container .row .col-lg-6 .imagenes-sobremi2 img {
-  width: 4rem;
-}
-
-.main-presentacion .row .col-12 img {
-  width: 80vw;
-}
-
-.main-presentacion {
-  padding-bottom: 7rem;
+  width: 3rem;
 }
 
 p {
