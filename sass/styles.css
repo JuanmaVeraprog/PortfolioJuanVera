@@ -2,27 +2,23 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: Nintendo;
-  background-color: #0c0c0c;
+  background-color: rgb(12, 12, 12);
 }
 
 @font-face {
   font-family: "Open Sans Light";
   src: url(../fonts/OpenSans-Light.ttf);
 }
-
 @font-face {
   font-family: "Open Sans Medium";
   src: url(../fonts/OpenSans-Medium.ttf);
 }
-
 @font-face {
   font-family: "Nintendo";
   src: url(../fonts/Nintendo-DS-BIOS.ttf);
 }
-
 .navbar .container-fluid .collapse .navbar-nav .nav-item {
   font-size: 2rem;
   padding: 5px 20px;
@@ -138,15 +134,15 @@ footer {
 }
 
 footer .row .col .color-footer {
-  background-color: #0a0a0a;
+  background-color: rgb(10, 10, 10);
 }
 
 footer .row .col .color-footer .color-footer {
-  background-color: #0a0a0a;
+  background-color: rgb(10, 10, 10);
 }
 
 footer .row .col {
-  background-color: #0a0a0a;
+  background-color: rgb(10, 10, 10);
 }
 
 @media (min-width: 425px) {
@@ -164,7 +160,6 @@ footer .row .col {
     width: 70vw;
   }
 }
-
 @media (min-width: 768px) {
   /* Main */
   .container-fluid .row .col-10 h1 {
@@ -178,7 +173,6 @@ footer .row .col {
     width: 50vw;
   }
 }
-
 @media (min-width: 992px) {
   .sobremi-container .row .col-lg-6 .imagen-sobremi {
     width: 40vw;
@@ -191,7 +185,6 @@ footer .row .col {
     width: 50vw;
   }
 }
-
 @media (min-width: 1920px) {
   .container-fluid .row .col-10 h1 {
     letter-spacing: 10px;
@@ -211,17 +204,11 @@ footer .row .col {
     padding-bottom: 9.3rem;
   }
   .main-contacto .input-contacto {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .main-contacto .row .email-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: right;
-        -ms-flex-pack: right;
-            justify-content: right;
+    justify-content: right;
   }
   .main-contacto .row .email-container input {
     display: inline;
@@ -232,12 +219,8 @@ footer .row .col {
     width: 30rem;
   }
   .main-contacto .row .textarea-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
   }
   .main-contacto .row .textarea-container .form-floating .textarea-contacto {
     width: 51vw;
@@ -292,7 +275,6 @@ footer .row .col {
     margin-top: 6rem;
   }
 }
-
 .sobremi-container .row .col-lg-6 .imagenes-sobremi1 img {
   width: 3rem;
 }
@@ -308,5 +290,4 @@ p {
 h2 {
   color: white;
   font-size: 3rem;
-}
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */

@@ -17,35 +17,9 @@
 
 <body>
 	<!-- N A V B A R -->
-	<nav class="navbar navbar-expand-lg navbar-dark">
-        <div class=" container-fluid">
-            <a class="navbar-brand me-auto fs-1 portfolio-titulo text-white" href="#"><span>
-                    < </span>Portfolio <span> >
-                        </span></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active text-white  text-center" aria-current="page"
-                            href="principal.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white  text-center" href="sobremi.html"> Sobre Mi</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white  text-center" href="proyectos.html"> Proyectos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white  text-center" href="contacto.html">Contacto</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <header>
+
+    </header>
 	<!-- M A I N -->
 	<main class="container-fluid main-principal">
 		<div class="row d-flex justify-content-center">
@@ -64,7 +38,108 @@
 			</div>
 		</div>
 	</main>
-	
+	<!-- S O B R E   M I -->
+    <section class="sobremi-container container-fluid">
+        <div class="row">
+			<div class="col-lg-6">
+				<h2 class="text-center titulo-sobremi">Sobre Mi</h2>
+				<p class="px-5 ">Hola, soy Juanma. Tengo 17 años y soy Desarrollador Web.
+					 Siempre me intereso el mundo de la programación, hasta que me decidí por adentrarme en él. Empece el bachillerato de Asistente Técnico con énfasis en desarrollo web, y me anoté en el curso de Desarrollo Web de CODERHOUSE
+					.</p>
+				<p class="px-5">Ahora mismo busco ampliar mis conocimientos para cuando me sienta preparado salir al ámbito laboral.</p>
+				<img src="../img/sobremiImg.png" class="img-fluid imagen-sobremi d-flex mx-auto " alt="Sobre mi imagen">
+			</div>
+			<div class="col-lg-6">
+				<h2 class="text-center titulo-conocimientos">Conocimientos</h2>
+				<div class="imagenes-sobremi1 d-flex justify-content-around my-4">
+					<img src="../img/iconoboostrap.png" alt="Icono Boostrap">
+					<img src="../img/iconocss.png" alt="Icono Css">
+					<img src="../img/iconohtml.png" alt="Icono Html">
+				</div>
+				<div class="imagenes-sobremi2 d-flex justify-content-around my-4">
+					<img src="../img/iconogithub.png" alt="Icono Github">
+					<img src="../img/iconogit.png" alt="Icono Git">
+					<img src="../img/iconosass.png" alt="Icono Sass">
+				</div>
+				<div class="px-4 py-2 mt-5">
+					<h2 class="text-center">Estudios</h2>
+					<p class="estudios"> <span class="text-warning">2015-2021.</span> Ingles C1. Empecé estudiando
+						Ingles desde temprana edad en una
+						academia, tengo el First Certificate + un año de Advance, por lo que mi nivel rondaría el C1.
+					</p>
+					<p class="estudios"><span class="text-warning">2021 - ∞.</span> Estudié y voy a seguir aprendiendo
+						de forma autodidacta. Mis
+						mayores influencias fueron Free Code Camp y Lucas Dalto con sus cursos (HTML, CSS, JAVASCRIPT),
+						entre
+						otros canales.</p>
+					<p class="estudios"><span class="text-warning">2022 Abril - 2022 Junio. </span>Coderhouse. Empecé la
+						carrera de Full Stack y
+						terminé el curso de Desarrollo Web.</p>
+					<p class="estudios"> <span class="text-warning">2021 - 2023.</span> Secundaria técnica. Me introduje
+						en el mundo de la
+						programación al entrar en el bachillerato de Auxiliar técnico en Informática, posteriormente
+						continuando
+						con un énfasis en desarrollo web.</p>
+				</div>
+			</div>
+		</div>
+    </section>
+    <!-- P R O Y E C T O S -->
+    <section class="container-fluid main-proyectos">
+        <div class="row">
+            <h1 class="text-center fw-bold">Mis Proyectos</h1>
+            <div class="col-lg-5">
+                <img class="img-fluid " src="../img/proyecto.png" alt="Proyecto">
+            </div>
+            <div class="col-lg-6  my-auto">
+                <h2 class="text-center fs-1 mt-4">Mi Portfolio</h2>
+                <p class="fs-4">Mi proyecto actual es mi propio Portfolio
+                    . En este, empleo los conocimientos brindados por el curso de Desarrollo Web de Coderhouse
+                    . Entre ellos HTML5, CSS3, el framework
+                    Bootstrap
+                    , subida de repositorios a GITHUB
+                    + GITHUB
+                    pages
+                    , buena semántica & buena utilización del SEO.
+                </p>
+                <p class="fs-4">Este proyecto pasó por varias etapas. Empezando por un boceto, posteriormente pasando a
+                    un wireframe
+                    en Balsamiq
+                    , el siguiente paso fue un Mockup
+                    en la plataforma Figma. Una vez finalizado el diseño, pase a la etapa de desarrollo. Fui
+                    implementando los distintos aprendizajes (Flexbox
+                    , Box-Modeling
+                    , Grids
+                    , Mobile
+                    First
+                    & Responsive
+                    Desing
+                    ), hasta después de tener todas las herramientas, empezar a maquetar la página con Boostrap
+                    . Finalizada la etapa de diseño y desarrollo, subí la página al host de 000webhost
+                    para que sea pública.</p>
+            </div>
+        </div>
+    </section>
+    <!-- C O N T A C T O -->
+    <section class="main-contacto container-fluid">
+        <div class="row g-3 d-flex justify-content-center input-contacto">
+            <h1 class="text-center fw-bold">Contactame</h1>
+            <div class="col-5 email-container">
+                <input type="email" class="form-control fs-4 email" placeholder="Email" aria-label="Email">
+            </div>
+            <div class="col-5">
+                <input type="text" class="form-control fs-4" placeholder="Asunto" aria-label="Asunto">
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-10 textarea-container">
+                <div class="form-floating">
+                    <textarea class="form-control my-4 textarea-contacto" style="height: 22rem" id="floatingTextarea" placeholder="Mensaje" aria-label="Mensaje"></textarea>            
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- F O O T E R --> 
 	<footer class="container-fluid">
 		<div class="row">
 			<div class="row">
@@ -83,12 +158,11 @@
             </div>
         </div>
     </footer>
-	</footer>
-
-
+    <!-- S C R I P T S -->
+    <script src="/js/index.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-		</script>
+	</script>
 </body>
 
 </html>
