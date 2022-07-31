@@ -19,11 +19,6 @@
   font-family: "Nintendo";
   src: url(../fonts/Nintendo-DS-BIOS.ttf);
 }
-.navbar .container-fluid .collapse .navbar-nav .nav-item {
-  font-size: 2rem;
-  padding: 5px 20px;
-}
-
 .main-principal .row .contenedor-datos .lista-datos li {
   list-style-type: none;
 }
