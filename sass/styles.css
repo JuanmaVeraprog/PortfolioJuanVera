@@ -120,6 +120,85 @@
   padding-bottom: 1rem;
 }
 
+.background {
+  background-color: rgb(12, 12, 12);
+}
+
+.main-ppt {
+  max-width: 40rem;
+  height: 100vh;
+  max-height: 745px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 3px solid #379e98;
+  border-radius: 2px;
+  box-shadow: 3px 3px 3px rgba(252, 235, 0, 0.493);
+  margin-top: 1rem;
+  color: black;
+  background-color: rgb(12, 12, 12);
+}
+.main-ppt button {
+  border: 2px solid #379e98;
+  margin: 5px;
+  background-color: rgb(18, 18, 18);
+}
+.main-ppt h1 {
+  font-size: 3rem;
+  text-align: center;
+  padding: 20px;
+  color: #faec3a;
+}
+.main-ppt #result {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+.main-ppt #result #vs-text {
+  align-self: center;
+  font-size: 4rem;
+  color: #faec3a;
+}
+.main-ppt #result img {
+  width: 8rem;
+}
+.main-ppt #start-text {
+  font-size: 3rem;
+  padding: 20px;
+  text-align: center;
+  color: #379e98;
+}
+.main-ppt #group-btn {
+  display: flex;
+  width: 100%;
+}
+.main-ppt #group-btn button > img {
+  width: 50%;
+  background-color: rgb(18, 18, 18);
+}
+.main-ppt .marcador {
+  display: flex;
+  justify-content: space-around;
+}
+.main-ppt .marcador .marcador-user,
+.main-ppt .marcador .marcador-maquina {
+  width: 14rem;
+  height: 4rem;
+  border: solid 3px #379e98;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.main-ppt .marcador .marcador-user span,
+.main-ppt .marcador .marcador-maquina span {
+  font-size: 2rem;
+  align-self: center;
+  color: white;
+}
+
 footer {
   height: 3rem;
 }

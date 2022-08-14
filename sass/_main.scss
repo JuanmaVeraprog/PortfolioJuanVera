@@ -73,6 +73,7 @@
         }
     }
 }
+
 // Main Presentacion
 
 .main-presentacion {
@@ -92,7 +93,7 @@
         .col-12 {
             img {
                 width: 80vw;
-                
+
             }
         }
     }
@@ -208,13 +209,13 @@
 }
 
 .main-proyectos {
-  padding-bottom: 6rem;
+    padding-bottom: 6rem;
 }
 
 .main-proyectos {
     .row {
         .col-lg-6 {
-            p{
+            p {
                 margin: 2rem;
             }
         }
@@ -229,6 +230,99 @@
             font-size: 3rem;
             color: $colorAmarillo;
             padding-bottom: 1rem;
+        }
+    }
+}
+
+
+// MAIN PIEDRA PAPEL TIJERA
+
+.background {
+    background-color: rgb(12, 12, 12);
+}
+
+.main-ppt {
+    max-width: 40rem;
+    height: 100vh;
+    max-height: 745px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 3px solid $colorAzul;
+    border-radius: 2px;
+    box-shadow: 3px 3px 3px rgba(252, 235, 0, 0.493);
+    margin-top: 1rem;
+    color: black;
+    background-color: rgb(12, 12, 12);
+    button{
+  
+        border: 2px solid $colorAzul;
+        margin: 5px;
+        background-color: rgb(18, 18, 18);
+      }
+
+    h1 {
+        font-size: 3rem;
+        text-align: center;
+        padding: 20px;
+        color: $colorAmarillo;
+    }
+
+    #result {
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        #vs-text {
+            align-self: center;
+            font-size: 4rem;
+            color: $colorAmarillo;
+        }
+
+        img {
+            width: 8rem;
+
+        }
+    }
+
+    #start-text {
+        font-size: 3rem;
+        padding: 20px;
+        text-align: center;
+        color: $colorAzul;
+    }
+
+    #group-btn {
+        display: flex;
+        width: 100%;
+        
+        button>img {
+            width: 50%;
+            background-color: rgb(18, 18, 18);
+        }
+    }
+
+    .marcador {
+        display: flex;
+        justify-content: space-around;
+        
+
+        .marcador-user,
+        .marcador-maquina {
+            width: 14rem;
+            height: 4rem;
+            border: solid 3px $colorAzul;
+            border-radius: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+
+            span {
+                font-size: 2rem;
+                align-self: center;
+                color: white;
+            }
         }
     }
 }
